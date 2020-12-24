@@ -1,11 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Playables;
 
 public class PlayAnim : MonoBehaviour
 {
-    public Animator penguinAnim;
-    public Animator umbrella;
+
+    public ReplayUIController UI;
+    public Animator anim;
+    public PlayableDirector timeline;
+    //public Animator umbrella;
     public float time = 1;
     public int touchCountPrev = 0;
 
@@ -14,7 +18,7 @@ public class PlayAnim : MonoBehaviour
     private void Awake()
     {
       //  umbrella = GetComponent<Animator>();
-        Invoke("PlayAnimation", time);
+       // Invoke("PlayAnimation", time);
     }
 
     void Start()
@@ -24,30 +28,34 @@ public class PlayAnim : MonoBehaviour
 
     void PlayAnimation()
     {
-        umbrella.SetTrigger("Fold");
-        penguinAnim.SetTrigger("Jump");
+        timeline.Play();
+        //timeline.
+        //anim.SetTrigger("Play");
+        //penguinAnim.SetTrigger("Jump");
 
     }
 
 
     // Update is called once per frame
-    void Update()
+    //void Update()
+    //{
+    //}
+
+
+    public void ResetAndPlay()
     {
-        
-        if (Input.touchCount > touchCountPrev) {
-            penguinAnim.SetTrigger("Reset");
-            umbrella.SetTrigger("Reset");
-            Invoke("PlayAnimation", 0);
+        UI.HideUI();
+        //penguinAnim.SetTrigger("Reset");
+        //umbrella.SetTrigger("Reset");
+        //Invoke("PlayAnimation", 0);
+        PlayAnimation();
+        print("replay!");
 
-            touchCountPrev = Input.touchCount;
-
-        }
-
-
+        //touchCountPrev = Input.touchCount;
     }
 
 
-
+    /*
     public void OnGUI()
     {
         GUI.color = Color.red;
@@ -55,4 +63,5 @@ public class PlayAnim : MonoBehaviour
         GUI.Label(new Rect(0, 0, 100, 100), "Hello");// Input.touchCount.ToString());
         GUILayout.Label(Input.touchCount.ToString());
     }
+    */
 }

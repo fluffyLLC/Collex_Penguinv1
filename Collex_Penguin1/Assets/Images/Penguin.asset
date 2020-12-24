@@ -16,26 +16,6 @@ MonoBehaviour:
   m_GuidHigh: 8618113332698456718
   m_Images:
   - m_SerializedGuid:
-      m_GuidLow: 4932996007090256548
-      m_GuidHigh: 9878140327446174881
-    m_SerializedTextureGuid:
-      m_GuidLow: 2978219802273291819
-      m_GuidHigh: 12357778462311374970
-    m_Size: {x: 0, y: 0}
-    m_SpecifySize: 0
-    m_Name: Star
-    m_Texture: {fileID: 0}
-  - m_SerializedGuid:
-      m_GuidLow: 4830587293863181167
-      m_GuidHigh: 13366008940130574488
-    m_SerializedTextureGuid:
-      m_GuidLow: 5666656102849072611
-      m_GuidHigh: 12214953962701804280
-    m_Size: {x: 0, y: 0}
-    m_SpecifySize: 0
-    m_Name: Blob2
-    m_Texture: {fileID: 0}
-  - m_SerializedGuid:
       m_GuidLow: 5692510699181667698
       m_GuidHigh: 15304883287428039044
     m_SerializedTextureGuid:
@@ -44,4 +24,14 @@ MonoBehaviour:
     m_Size: {x: 0, y: 0}
     m_SpecifySize: 0
     m_Name: Penny2
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5421315745015129142
+      m_GuidHigh: 7241163171619632544
+    m_SerializedTextureGuid:
+      m_GuidLow: 9688470538326861754
+      m_GuidHigh: 15765566347946567466
+    m_Size: {x: 2.4, y: 3.993976}
+    m_SpecifySize: 1
+    m_Name: Penny 1
     m_Texture: {fileID: 0}

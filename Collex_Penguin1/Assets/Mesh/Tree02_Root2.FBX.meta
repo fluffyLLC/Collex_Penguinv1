@@ -3,7 +3,37 @@ guid: 031ded72cc00bfb4badd308b91c39403
 ModelImporter:
   serializedVersion: 20101
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Coconut
+    second: {fileID: -3016143858633202799, guid: ba9af68510b8a5f4294cd662d4fbe54b, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Leaf
+    second: {fileID: -1116558808457297383, guid: ba9af68510b8a5f4294cd662d4fbe54b, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Leaf.001
+    second: {fileID: 4995920807154521724, guid: ba9af68510b8a5f4294cd662d4fbe54b, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Leaf.002
+    second: {fileID: 143738966014484076, guid: ba9af68510b8a5f4294cd662d4fbe54b, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Leaf.003
+    second: {fileID: 1984145729870543959, guid: ba9af68510b8a5f4294cd662d4fbe54b, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tree
+    second: {fileID: 6811939976176191136, guid: ba9af68510b8a5f4294cd662d4fbe54b, type: 3}
   materials:
     materialImportMode: 1
     materialName: 0
@@ -85,7 +115,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 0.000762
+    globalScale: 0.03
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0

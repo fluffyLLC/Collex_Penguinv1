@@ -31,7 +31,7 @@ MonoBehaviour:
     m_SerializedTextureGuid:
       m_GuidLow: 9688470538326861754
       m_GuidHigh: 15765566347946567466
-    m_Size: {x: 2.4, y: 3.993976}
+    m_Size: {x: 0.16789284, y: 0.2794}
     m_SpecifySize: 1
     m_Name: Penny 1
     m_Texture: {fileID: 0}

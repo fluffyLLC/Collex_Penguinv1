@@ -10,8 +10,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Cloth
-    second: {fileID: 2100000, guid: 7e1ecc27a32bbbe4095057ab2f46489f, type: 2}
+      name: Chair_
+    second: {fileID: 2100000, guid: a187f7bee6749034e97ab259fa88fe84, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -20,16 +20,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Metal
-    second: {fileID: 2100000, guid: 7507b73462a8bd3448a2c92cf0f4843d, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Wood
-    second: {fileID: 2100000, guid: f606616196081c24ba0ac50a1c82cd14, type: 2}
+      name: white
+    second: {fileID: 2100000, guid: d3ae6b406ea541944ad71a909d2139a4, type: 2}
   materials:
     materialImportMode: 1
-    materialName: 2
+    materialName: 0
     materialSearch: 1
     materialLocation: 1
   animations:
